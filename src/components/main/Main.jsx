@@ -11,7 +11,7 @@ export default function Main() {
                     </div>
                     Soluções para sua empresa
                 </div>
-                <h1 className='text-9xl mb-10' >Kairós Agência</h1>
+                <h1 className='text-9xl mb-10 mt-5' >A<span className='selected' >gênc</span>ia  <span className='font-bold'>Kairós</span></h1>
                 <a href='' className='button'>Venha conhecer</a>
             </div>
             <img className='img-border w-140' src="src/assets/imgs/beni.png" alt="" />

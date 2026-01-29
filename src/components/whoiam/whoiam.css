@@ -1,4 +1,88 @@
 .whoami {
     background-color: var(--color-black);
+    animation: backgroundspin 3s ease-in-out 1s infinite;
     color: white;
+    padding: 40px;
+    line-height: 30px;
+    .justify {
+        justify-items: anchor-center;
+    }
+
+    .content {
+        align-self: center;
+        text-align: center;
+        justify-self: center;
+        text-align: start;
+        border-radius: 20px;
+        max-width: 70%;
+        padding: 30px;
+
+
+        i {
+            border-radius: 50px;
+        }
+
+    }
+
+    .quem {
+        letter-spacing: 40px;
+    }
+
+    .notquem {
+        letter-spacing: 0;
+    }
+
+    .blue-border {
+        border-left: 3px solid rgb(255, 250, 250);
+        border-radius: 40px;
+    }
+
+    .pill {
+        color: var(--color-black);
+        background-color: var(--color-white);
+        padding: 10px 20px;
+        border-radius: 30px;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        justify-content: center;
+        color: black !important;
+
+        i {
+            color: black;
+        }
+
+        transition: 0.2s ease-in-out;
+        
+    }
+
+    .pill:hover {
+            transform: scale(1.1);
+        }
+
+    .text-box {
+        max-width: 250px;
+    }
+
+}
+
+
+@keyframes backgroundspin {
+    0% {
+        background-color: var(--color-black);
+    }
+
+    50% {
+        background-color: rgb(2, 9, 77);
+    }
+
+    100% {
+        background-color: var(--color-black);
+    }
+
+
+
+
+
 }
