@@ -55,7 +55,7 @@ export default function Presentation() {
                 </div>
                 <div className='service-container flex flex-col services-design' >
                     <span className='text-5xl' >Para transformar seu perfil</span>
-                    <span className='text-9xl font-bold' >DESGIN</span>
+                    <span className='text-9xl font-bold' >DESIGN</span>
                 </div>
                 <div className='service-container flex flex-col services-video'>
                     <span className='text-5xl' >Para engajar e acançar público</span>
