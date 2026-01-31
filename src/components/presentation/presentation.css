@@ -1,0 +1,28 @@
+.wrapper {
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+.services {
+    display: flex;
+}
+
+.service-container {
+  min-width: 100vw;
+  height: 100vh;
+  border: 1px solid red;
+  font-size: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
+}
+
+
+.services-our {
+    background-color: rgb(245, 245, 245);
+}
+.services-design {
+    background-color: rgb(114, 114, 255);
+}
