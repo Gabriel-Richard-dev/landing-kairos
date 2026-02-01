@@ -11,7 +11,6 @@
 .service-container {
   min-width: 100vw;
   height: 100vh;
-  border: 1px solid red;
   font-size: 10vw;
   display: flex;
   align-items: center;
@@ -24,5 +23,21 @@
     background-color: rgb(245, 245, 245);
 }
 .services-design {
-    background-color: rgb(114, 114, 255);
+    background-color: rgb(231, 231, 255);
+}
+.services-video {
+  background-color: var(--color-black);
+  span {
+    color: white !important;
+  }
+}
+.services-sites {
+  background-color: var(--color-black);
+  span {
+    color: white !important;
+  }
+}
+
+.services-web {
+  background-color: rgb(231, 231, 255);
 }
