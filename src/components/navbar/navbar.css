@@ -1,7 +1,7 @@
 .navbar {
     position: fixed;
-    top: 10px;
-    margin-top: 10px;
+    top: 5px;
+    margin-top: 5px;
     width: 100%;
     transition: .4s;
     max-width: 96vw;
@@ -32,4 +32,8 @@
     border: 1px solid rgba(255, 255, 255, 0.84);
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
  
+}
+
+.width-image {
+    width: 35px;
 }

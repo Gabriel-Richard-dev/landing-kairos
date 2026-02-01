@@ -7,6 +7,8 @@ import Main from './components/main/Main'
 import Presentation from './components/presentation/Presentation'
 import Footer from './components/footer/Footer'
 import Whoiam from './components/whoiam/Whoiam'
+import Contact from './components/contact/Contact'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +21,7 @@ function App() {
       <Main />
       <Whoiam />
       <Presentation />
+      <Contact />
       <Footer />
     </div>
   )
